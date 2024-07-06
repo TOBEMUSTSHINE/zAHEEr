@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('fonts/GTA/Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('fonts/GTA/Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  src: url('fonts/GTA/Thin.otf') format('opentype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+.bg {
+  background-color: #ffffff;
+}
+
+/* RESPONSIVENESS */
+@media (min-width: 1000px) {
+  .bg{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+  }
+  .head p{
+      font-size: 30px;
+  }
+
+
+  .head h1{
+      font-size: 65px;
+      font-weight: bold;
+      padding-top: 10px;
+      max-width: 70%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .flex{
+      display: flex;
+  }
+  .contacts{
+      padding: 0px 90px;
+  }
+  .Goals h2, .links h2, .contact-text{
+      font-size: 35px;
+  }
+  
+}
+.text-white {
+  color: #000000;
+}
+.my-nameeers{
+font-weight: bolder;
+}
+
+.mynameers {
+  font-weight: bolder;
+}
+
+header p{
+  font-size: 25px;
+  color: #000000;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+header span{
+  text-decoration: none;
+  color: #517ada;
+}
+
+header h1{
+  color: #000000;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.border {
+  border-radius: 0 30px;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* @media (min-width: 768px) {
+  .linksa {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .head p{
+      font-size: 30px;
+  }
+
+  .head h1{
+      font-size: 65px;
+      font-weight: bold;
+      padding-top: 10px;
+      max-width: 70%;
+  }
+ 
+  .heading {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex{
+      display: flex;
+  }
+
+  .contacts{
+      padding: 0px 90px;
+  }
+
+  .Goals h2, .links h2, .contact-text{
+      font-size: 35px;
+  }
+
+  .linksa, .links {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .linker {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.text-white {
+  color: #000000;
+}
+
+.mynameers {
+  font-weight: bolder;
+}
+header p{
+  font-size: 25px;
+  color: #000000;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+header span{
+  text-decoration: none;
+  color: #517ada;
+}
+
+header h1{
+  color: #000000;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.border {
+  border-radius: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.heading {
+   margin-left: 100px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mynameers {
+  display: none;
+} */
+
+@media (max-width: 1000px) {
+  .head{
+      display: block;
+  }
+}
+
+@media (max-width: 1000px){
+  .box{
+      display: none;
+  } 
+}
+@media (min-width: 1300px) {
+  .Goals, .contacts, .links {
+      flex: 1;
+      min-width: 300px;
+  }
+  
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  /* margin: 10px 0px; */
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.head header {
+  margin-bottom: 15px;
+}
+
+.flex{
+  justify-content: center;
+  margin: 0px 30px;
+  padding-bottom: 10px;
+}
+
+.Goals h2, .links h2, .co{
+  color: #000000;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.Goals p{
+  color: #000000;
+  max-width: 70%;
+  font-weight: 200;
+  font-size: 22px;
+  border: #000000;
+  line-height: 30px;
+}
+
+@media (max-width: 1000px) {
+  .Goals p{
+      max-width: 90%;
+  }
+  
+}
+.links h2{
+  color: #000000;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.linksa p{
+  color: #000000;
+  line-height: 25px;
+}
+
+a{
+  display: flex;
+  gap: 20px;
+  color: #000000;
+  line-height: 30px;
+
+}
+/* .contacts{
+  padding: 0px 90px;
+} */
+.contact-text{
+  color: #000000;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.contat p{
+  color: #000000;
+  font-size: 20px;
+  line-height: 35px;
+}
+/* Existing styles for large devices remain unchanged */
+
+@media (min-width: 1000px) {
+  .bg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+  }
+  
+  .head p {
+      font-size: 30px;
+  }
+  
+  .head h1 {
+      font-size: 65px;
+      font-weight: bold;
+      padding-top: 10px;
+      max-width: 70%;
+  }
+  
+  .flex {
+      display: flex;
+  }
+  
+  .contacts {
+      padding: 0px 90px;
+  }
+  
+  .Goals h2, .links h2, .contact-text h2 {
+      font-size: 35px;
+  }
+  .links a{
+      font-size: 20px;
+  }
+
+  .linksa {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1000px) {
+  .Goals h2, .contacts h2, .links h2 {
+      font-size: 24px;
+      margin-top: 20px; 
+  }
+  
+.heading{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+  .contact-text {
+      font-size: 24px;
+      line-height: 1.6; 
+      margin-top: 20px; 
+  }
+  
+  .Goals, .contacts, .links {
+      margin-top: 30px; /* Add margin top to sections */
+  }
+}
